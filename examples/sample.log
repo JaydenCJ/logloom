@@ -1,0 +1,200 @@
+2026-02-03T10:00:00Z INFO http request method=GET path=/api/v1/accounts/8231 status=200 latency=4ms
+2026-02-03T10:00:13Z INFO cache hit key=user:8231 ttl=300s
+2026-02-03T10:00:27Z INFO http request method=GET path=/api/v1/orders/9414 status=200 latency=11ms
+2026-02-03T10:00:41Z DEBUG db query table=users rows=1 took=1.0ms
+2026-02-03T10:00:54Z INFO http request method=POST path=/api/v1/accounts/1027/settings status=200 latency=18ms
+2026-02-03T10:01:08Z INFO http request method=GET path=/api/v1/accounts/5563 status=201 latency=25ms
+2026-02-03T10:01:22Z INFO worker 1 finished job 8f3a2c1d in 120ms
+2026-02-03T10:01:35Z INFO cache hit key=user:9414 ttl=270s
+2026-02-03T10:01:49Z INFO http request method=PUT path=/api/v1/orders/7789 status=200 latency=32ms
+2026-02-03T10:02:03Z INFO cache miss key=user:5563 fetching from origin
+2026-02-03T10:02:17Z INFO http request method=GET path=/api/v1/accounts/3302/settings status=404 latency=39ms
+2026-02-03T10:02:30Z DEBUG db query table=orders rows=14 took=2.1ms
+2026-02-03T10:02:44Z INFO http request method=DELETE path=/api/v1/accounts/6641 status=200 latency=8ms
+2026-02-03T10:02:58Z INFO session started session=6b3f2a10-9c4e-4f6b-8a2d-1e5f7c9b0d42 user=alice@example.test
+2026-02-03T10:03:11Z INFO cache hit key=user:1027 ttl=240s
+2026-02-03T10:03:25Z INFO http request method=GET path=/api/v1/orders/2185 status=500 latency=15ms
+2026-02-03T10:03:39Z INFO http request method=GET path=/api/v1/accounts/8231/settings status=200 latency=22ms
+2026-02-03T10:03:52Z INFO worker 2 finished job b74e90a2 in 181ms
+2026-02-03T10:04:06Z INFO cache hit key=user:5563 ttl=210s
+2026-02-03T10:04:20Z INFO http request method=GET path=/api/v1/accounts/9414 status=204 latency=29ms
+2026-02-03T10:04:34Z INFO http request method=POST path=/api/v1/orders/1027 status=200 latency=36ms
+2026-02-03T10:04:47Z DEBUG db query table=sessions rows=27 took=3.2ms
+2026-02-03T10:05:01Z INFO http request method=GET path=/api/v1/accounts/5563/settings status=200 latency=5ms
+2026-02-03T10:05:15Z INFO cache miss key=user:7789 fetching from origin
+2026-02-03T10:05:28Z INFO http request method=PUT path=/api/v1/accounts/7789 status=200 latency=12ms
+2026-02-03T10:05:42Z INFO cache hit key=user:7789 ttl=180s
+2026-02-03T10:05:56Z WARN retrying request attempt=2 backoff=200ms
+2026-02-03T10:06:09Z INFO http request method=GET path=/api/v1/orders/3302 status=201 latency=19ms
+2026-02-03T10:06:23Z INFO http request method=DELETE path=/api/v1/accounts/6641/settings status=200 latency=26ms
+2026-02-03T10:06:37Z INFO worker 3 finished job 05c6d1ee in 242ms
+2026-02-03T10:06:51Z DEBUG db query table=users rows=40 took=4.3ms
+2026-02-03T10:07:04Z INFO http request method=GET path=/api/v1/accounts/2185 status=404 latency=33ms
+2026-02-03T10:07:18Z INFO cache hit key=user:3302 ttl=300s
+2026-02-03T10:07:32Z INFO http request method=GET path=/api/v1/orders/8231 status=200 latency=40ms
+2026-02-03T10:07:45Z ERROR upstream timeout host=10.0.3.17:8443 after=5s
+2026-02-03T10:07:59Z INFO http request method=GET path=/api/v1/accounts/9414/settings status=500 latency=9ms
+2026-02-03T10:08:13Z INFO session started session=0f8e7d6c-5b4a-4392-a1b0-c9d8e7f6a5b4 user=bob@example.test
+2026-02-03T10:08:26Z INFO cache hit key=user:6641 ttl=270s
+2026-02-03T10:08:40Z INFO http request method=POST path=/api/v1/accounts/1027 status=200 latency=16ms
+2026-02-03T10:08:54Z DEBUG db query table=orders rows=13 took=5.4ms
+2026-02-03T10:09:08Z INFO http request method=GET path=/api/v1/orders/5563 status=204 latency=23ms
+2026-02-03T10:09:21Z INFO cache miss key=user:3302 fetching from origin
+2026-02-03T10:09:35Z INFO http request method=PUT path=/api/v1/accounts/7789/settings status=200 latency=30ms
+2026-02-03T10:09:49Z INFO worker 4 finished job f21b8c37 in 303ms
+2026-02-03T10:10:02Z INFO cache hit key=user:2185 ttl=240s
+2026-02-03T10:10:16Z INFO http request method=GET path=/api/v1/accounts/3302 status=200 latency=37ms
+2026-02-03T10:10:30Z INFO http request method=DELETE path=/api/v1/orders/6641 status=200 latency=6ms
+2026-02-03T10:10:43Z DEBUG db query table=sessions rows=26 took=6.5ms
+2026-02-03T10:10:57Z INFO cache hit key=user:8231 ttl=210s
+2026-02-03T10:11:11Z INFO http request method=GET path=/api/v1/accounts/2185/settings status=201 latency=13ms
+2026-02-03T10:11:25Z INFO http request method=GET path=/api/v1/accounts/8231 status=200 latency=20ms
+2026-02-03T10:11:38Z INFO cache hit key=user:9414 ttl=180s
+2026-02-03T10:11:52Z INFO http request method=GET path=/api/v1/orders/9414 status=404 latency=27ms
+2026-02-03T10:12:06Z DEBUG db query table=users rows=39 took=7.6ms
+2026-02-03T10:12:19Z INFO http request method=POST path=/api/v1/accounts/1027/settings status=200 latency=34ms
+2026-02-03T10:12:33Z INFO http request method=GET path=/api/v1/accounts/5563 status=500 latency=41ms
+2026-02-03T10:12:47Z INFO worker 1 finished job 4d9e60ab in 364ms
+2026-02-03T10:13:00Z INFO cache hit key=user:1027 ttl=300s
+2026-02-03T10:13:14Z INFO http request method=PUT path=/api/v1/orders/7789 status=200 latency=10ms
+2026-02-03T10:13:28Z INFO cache miss key=user:6641 fetching from origin
+2026-02-03T10:13:42Z INFO http request method=GET path=/api/v1/accounts/3302/settings status=204 latency=17ms
+2026-02-03T10:13:55Z DEBUG db query table=orders rows=12 took=8.7ms
+2026-02-03T10:14:09Z INFO http request method=DELETE path=/api/v1/accounts/6641 status=200 latency=24ms
+2026-02-03T10:14:23Z INFO session started session=3a2b1c0d-9e8f-4756-b342-a1b2c3d4e5f6 user=carol@example.test
+2026-02-03T10:14:36Z INFO cache hit key=user:5563 ttl=270s
+2026-02-03T10:14:50Z INFO http request method=GET path=/api/v1/orders/2185 status=200 latency=31ms
+2026-02-03T10:15:04Z INFO http request method=GET path=/api/v1/accounts/8231/settings status=200 latency=38ms
+2026-02-03T10:15:17Z INFO worker 2 finished job 8f3a2c1d in 425ms
+2026-02-03T10:15:31Z INFO cache hit key=user:7789 ttl=240s
+2026-02-03T10:15:45Z INFO http request method=GET path=/api/v1/accounts/9414 status=201 latency=7ms
+2026-02-03T10:15:59Z INFO http request method=POST path=/api/v1/orders/1027 status=200 latency=14ms
+2026-02-03T10:16:12Z DEBUG db query table=sessions rows=25 took=9.8ms
+2026-02-03T10:16:26Z INFO http request method=GET path=/api/v1/accounts/5563/settings status=404 latency=21ms
+2026-02-03T10:16:40Z INFO cache miss key=user:2185 fetching from origin
+2026-02-03T10:16:53Z INFO http request method=PUT path=/api/v1/accounts/7789 status=200 latency=28ms
+2026-02-03T10:17:07Z INFO cache hit key=user:3302 ttl=210s
+2026-02-03T10:17:21Z WARN retrying request attempt=3 backoff=400ms
+2026-02-03T10:17:34Z INFO http request method=GET path=/api/v1/orders/3302 status=500 latency=35ms
+2026-02-03T10:17:48Z INFO http request method=DELETE path=/api/v1/accounts/6641/settings status=200 latency=4ms
+2026-02-03T10:18:02Z INFO worker 3 finished job b74e90a2 in 486ms
+2026-02-03T10:18:16Z DEBUG db query table=users rows=38 took=1.9ms
+2026-02-03T10:18:29Z INFO http request method=GET path=/api/v1/accounts/2185 status=204 latency=11ms
+2026-02-03T10:18:43Z INFO cache hit key=user:6641 ttl=180s
+2026-02-03T10:18:57Z INFO http request method=GET path=/api/v1/orders/8231 status=200 latency=18ms
+2026-02-03T10:19:10Z ERROR upstream timeout host=10.0.3.18:8443 after=5s
+2026-02-03T10:19:24Z INFO http request method=GET path=/api/v1/accounts/9414/settings status=200 latency=25ms
+2026-02-03T10:19:38Z INFO session started session=9d8c7b6a-5f4e-4d3c-8b2a-190f8e7d6c5b user=dave@example.test
+2026-02-03T10:19:51Z INFO cache hit key=user:2185 ttl=300s
+2026-02-03T10:20:05Z INFO http request method=POST path=/api/v1/accounts/1027 status=200 latency=32ms
+2026-02-03T10:20:19Z DEBUG db query table=orders rows=11 took=2.0ms
+2026-02-03T10:20:33Z INFO http request method=GET path=/api/v1/orders/5563 status=201 latency=39ms
+2026-02-03T10:20:46Z INFO cache miss key=user:8231 fetching from origin
+2026-02-03T10:21:00Z INFO http request method=PUT path=/api/v1/accounts/7789/settings status=200 latency=8ms
+2026-02-03T10:21:14Z INFO worker 4 finished job 05c6d1ee in 547ms
+2026-02-03T10:21:27Z INFO cache hit key=user:8231 ttl=270s
+2026-02-03T10:21:41Z INFO http request method=GET path=/api/v1/accounts/3302 status=404 latency=15ms
+2026-02-03T10:21:55Z INFO http request method=DELETE path=/api/v1/orders/6641 status=200 latency=22ms
+2026-02-03T10:22:08Z WARN config reload took longer than expected elapsed=1.8s
+2026-02-03T10:22:22Z INFO cache hit key=user:9414 ttl=240s
+2026-02-03T10:22:36Z INFO http request method=GET path=/api/v1/accounts/2185/settings status=500 latency=29ms
+2026-02-03T10:22:50Z INFO http request method=GET path=/api/v1/accounts/8231 status=200 latency=36ms
+2026-02-03T10:23:03Z INFO cache hit key=user:1027 ttl=210s
+2026-02-03T10:23:17Z INFO http request method=GET path=/api/v1/orders/9414 status=204 latency=5ms
+2026-02-03T10:23:31Z DEBUG db query table=sessions rows=24 took=3.1ms
+2026-02-03T10:23:44Z INFO http request method=POST path=/api/v1/accounts/1027/settings status=200 latency=12ms
+2026-02-03T10:23:58Z INFO http request method=GET path=/api/v1/accounts/5563 status=200 latency=19ms
+2026-02-03T10:24:12Z INFO worker 1 finished job f21b8c37 in 608ms
+2026-02-03T10:24:25Z INFO cache hit key=user:5563 ttl=180s
+2026-02-03T10:24:39Z INFO http request method=PUT path=/api/v1/orders/7789 status=200 latency=26ms
+2026-02-03T10:24:53Z INFO cache miss key=user:9414 fetching from origin
+2026-02-03T10:25:07Z INFO http request method=GET path=/api/v1/accounts/3302/settings status=201 latency=33ms
+2026-02-03T10:25:20Z DEBUG db query table=users rows=37 took=4.2ms
+2026-02-03T10:25:34Z INFO http request method=DELETE path=/api/v1/accounts/6641 status=200 latency=40ms
+2026-02-03T10:25:48Z INFO session started session=6b3f2a10-9c4e-4f6b-8a2d-1e5f7c9b0d42 user=alice@example.test
+2026-02-03T10:26:01Z INFO cache hit key=user:7789 ttl=300s
+2026-02-03T10:26:15Z INFO http request method=GET path=/api/v1/orders/2185 status=404 latency=9ms
+2026-02-03T10:26:29Z INFO http request method=GET path=/api/v1/accounts/8231/settings status=200 latency=16ms
+2026-02-03T10:26:42Z INFO worker 2 finished job 4d9e60ab in 669ms
+2026-02-03T10:26:56Z INFO cache hit key=user:3302 ttl=270s
+2026-02-03T10:27:10Z INFO http request method=GET path=/api/v1/accounts/9414 status=500 latency=23ms
+2026-02-03T10:27:24Z INFO http request method=POST path=/api/v1/orders/1027 status=200 latency=30ms
+2026-02-03T10:27:37Z DEBUG db query table=orders rows=10 took=5.3ms
+2026-02-03T10:27:51Z INFO http request method=GET path=/api/v1/accounts/5563/settings status=204 latency=37ms
+2026-02-03T10:28:05Z INFO cache miss key=user:1027 fetching from origin
+2026-02-03T10:28:18Z INFO http request method=PUT path=/api/v1/accounts/7789 status=200 latency=6ms
+2026-02-03T10:28:32Z INFO cache hit key=user:6641 ttl=240s
+2026-02-03T10:28:46Z WARN retrying request attempt=4 backoff=600ms
+2026-02-03T10:28:59Z INFO http request method=GET path=/api/v1/orders/3302 status=200 latency=13ms
+2026-02-03T10:29:13Z INFO http request method=DELETE path=/api/v1/accounts/6641/settings status=200 latency=20ms
+2026-02-03T10:29:27Z INFO worker 3 finished job 8f3a2c1d in 730ms
+2026-02-03T10:29:41Z DEBUG db query table=sessions rows=23 took=6.4ms
+2026-02-03T10:29:54Z INFO http request method=GET path=/api/v1/accounts/2185 status=201 latency=27ms
+2026-02-03T10:30:08Z INFO cache hit key=user:2185 ttl=210s
+2026-02-03T10:30:22Z INFO http request method=GET path=/api/v1/orders/8231 status=200 latency=34ms
+2026-02-03T10:30:35Z ERROR upstream timeout host=10.0.5.2:9200 after=5s
+2026-02-03T10:30:49Z INFO http request method=GET path=/api/v1/accounts/9414/settings status=404 latency=41ms
+2026-02-03T10:31:03Z INFO session started session=0f8e7d6c-5b4a-4392-a1b0-c9d8e7f6a5b4 user=bob@example.test
+2026-02-03T10:31:16Z INFO cache hit key=user:8231 ttl=180s
+2026-02-03T10:31:30Z INFO http request method=POST path=/api/v1/accounts/1027 status=200 latency=10ms
+2026-02-03T10:31:44Z DEBUG db query table=users rows=36 took=7.5ms
+2026-02-03T10:31:58Z INFO http request method=GET path=/api/v1/orders/5563 status=500 latency=17ms
+2026-02-03T10:32:11Z INFO cache miss key=user:5563 fetching from origin
+2026-02-03T10:32:25Z INFO http request method=PUT path=/api/v1/accounts/7789/settings status=200 latency=24ms
+2026-02-03T10:32:39Z INFO worker 4 finished job b74e90a2 in 791ms
+2026-02-03T10:32:52Z INFO cache hit key=user:9414 ttl=300s
+2026-02-03T10:33:06Z INFO http request method=GET path=/api/v1/accounts/3302 status=204 latency=31ms
+2026-02-03T10:33:20Z INFO http request method=DELETE path=/api/v1/orders/6641 status=200 latency=38ms
+2026-02-03T10:33:33Z DEBUG db query table=orders rows=9 took=8.6ms
+2026-02-03T10:33:47Z INFO cache hit key=user:1027 ttl=270s
+2026-02-03T10:34:01Z INFO http request method=GET path=/api/v1/accounts/2185/settings status=200 latency=7ms
+2026-02-03T10:34:15Z INFO http request method=GET path=/api/v1/accounts/8231 status=200 latency=14ms
+2026-02-03T10:34:28Z INFO cache hit key=user:5563 ttl=240s
+2026-02-03T10:34:42Z INFO http request method=GET path=/api/v1/orders/9414 status=201 latency=21ms
+2026-02-03T10:34:56Z DEBUG db query table=sessions rows=22 took=9.7ms
+2026-02-03T10:35:09Z INFO http request method=POST path=/api/v1/accounts/1027/settings status=200 latency=28ms
+2026-02-03T10:35:23Z INFO http request method=GET path=/api/v1/accounts/5563 status=404 latency=35ms
+2026-02-03T10:35:37Z INFO worker 1 finished job 05c6d1ee in 152ms
+2026-02-03T10:35:50Z INFO cache hit key=user:7789 ttl=210s
+2026-02-03T10:36:04Z INFO http request method=PUT path=/api/v1/orders/7789 status=200 latency=4ms
+2026-02-03T10:36:18Z INFO cache miss key=user:7789 fetching from origin
+2026-02-03T10:36:32Z INFO http request method=GET path=/api/v1/accounts/3302/settings status=500 latency=11ms
+2026-02-03T10:36:45Z DEBUG db query table=users rows=35 took=1.8ms
+2026-02-03T10:36:59Z INFO http request method=DELETE path=/api/v1/accounts/6641 status=200 latency=18ms
+2026-02-03T10:37:13Z INFO session started session=3a2b1c0d-9e8f-4756-b342-a1b2c3d4e5f6 user=carol@example.test
+2026-02-03T10:37:26Z INFO cache hit key=user:3302 ttl=180s
+2026-02-03T10:37:40Z INFO http request method=GET path=/api/v1/orders/2185 status=204 latency=25ms
+2026-02-03T10:37:54Z INFO http request method=GET path=/api/v1/accounts/8231/settings status=200 latency=32ms
+2026-02-03T10:38:07Z INFO worker 2 finished job f21b8c37 in 213ms
+2026-02-03T10:38:21Z INFO cache hit key=user:6641 ttl=300s
+2026-02-03T10:38:35Z INFO http request method=GET path=/api/v1/accounts/9414 status=200 latency=39ms
+2026-02-03T10:38:49Z INFO http request method=POST path=/api/v1/orders/1027 status=200 latency=8ms
+2026-02-03T10:39:02Z DEBUG db query table=orders rows=8 took=2.9ms
+2026-02-03T10:39:16Z INFO http request method=GET path=/api/v1/accounts/5563/settings status=201 latency=15ms
+2026-02-03T10:39:30Z INFO cache miss key=user:3302 fetching from origin
+2026-02-03T10:39:43Z INFO http request method=PUT path=/api/v1/accounts/7789 status=200 latency=22ms
+2026-02-03T10:39:57Z INFO cache hit key=user:2185 ttl=270s
+2026-02-03T10:40:11Z WARN retrying request attempt=2 backoff=200ms
+2026-02-03T10:40:24Z INFO http request method=GET path=/api/v1/orders/3302 status=404 latency=29ms
+2026-02-03T10:40:38Z INFO http request method=DELETE path=/api/v1/accounts/6641/settings status=200 latency=36ms
+2026-02-03T10:40:52Z INFO worker 3 finished job 4d9e60ab in 274ms
+2026-02-03T10:41:06Z DEBUG db query table=sessions rows=21 took=3.0ms
+2026-02-03T10:41:19Z INFO http request method=GET path=/api/v1/accounts/2185 status=500 latency=5ms
+2026-02-03T10:41:33Z INFO cache hit key=user:8231 ttl=240s
+2026-02-03T10:41:47Z INFO http request method=GET path=/api/v1/orders/8231 status=200 latency=12ms
+2026-02-03T10:42:00Z ERROR upstream timeout host=10.0.3.17:8443 after=5s
+2026-02-03T10:42:14Z INFO http request method=GET path=/api/v1/accounts/9414/settings status=204 latency=19ms
+2026-02-03T10:42:28Z INFO session started session=9d8c7b6a-5f4e-4d3c-8b2a-190f8e7d6c5b user=dave@example.test
+2026-02-03T10:42:41Z INFO cache hit key=user:9414 ttl=210s
+2026-02-03T10:42:55Z INFO http request method=POST path=/api/v1/accounts/1027 status=200 latency=26ms
+2026-02-03T10:43:09Z DEBUG db query table=users rows=34 took=4.1ms
+2026-02-03T10:43:23Z INFO http request method=GET path=/api/v1/orders/5563 status=200 latency=33ms
+2026-02-03T10:43:36Z INFO cache miss key=user:6641 fetching from origin
+2026-02-03T10:43:50Z INFO http request method=PUT path=/api/v1/accounts/7789/settings status=200 latency=40ms
+2026-02-03T10:44:04Z INFO worker 4 finished job 8f3a2c1d in 335ms
+2026-02-03T10:44:17Z INFO cache hit key=user:1027 ttl=180s
+2026-02-03T10:44:31Z INFO http request method=GET path=/api/v1/accounts/3302 status=201 latency=9ms
+2026-02-03T10:44:45Z INFO http request method=DELETE path=/api/v1/orders/6641 status=200 latency=16ms
+2026-02-03T10:44:58Z WARN config reload took longer than expected elapsed=1.7s
+2026-02-03T10:45:12Z INFO cache hit key=user:5563 ttl=300s
+2026-02-03T10:45:26Z INFO http request method=GET path=/api/v1/accounts/2185/settings status=404 latency=23ms

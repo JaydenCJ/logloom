@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="412" viewBox="0 0 760 412" font-family="Menlo, Consolas, monospace" font-size="13">
+  <rect width="760" height="412" rx="10" fill="#101418"/>
+  <circle cx="24" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="22" r="6" fill="#27c93f"/>
+  <text x="380" y="27" fill="#8b949e" text-anchor="middle" font-size="12">logloom — a million lines are usually fifty templates</text>
+  <g fill="#c9d1d9">
+    <text x="24" y="60"><tspan fill="#7ee787">$</tspan> logloom scan examples/sample.log</text>
+    <text x="24" y="90"><tspan fill="#79c0ff">logloom</tspan> — 200 lines → <tspan fill="#f778ba">9 templates</tspan></text>
+    <text x="24" y="120" fill="#d2a8ff">count      %  id         template</text>
+    <text x="24" y="142">   96   48.0  <tspan fill="#7ee787">te3225c3f</tspan>  <tspan fill="#ffa657">&lt;time&gt;</tspan> INFO http request method=<tspan fill="#f778ba">&lt;*&gt;</tspan> path=<tspan fill="#f778ba">&lt;*&gt;</tspan> status=<tspan fill="#ffa657">&lt;num&gt;</tspan> latency=<tspan fill="#ffa657">&lt;dur&gt;</tspan></text>
+    <text x="24" y="164">   36   18.0  <tspan fill="#7ee787">t88a9d32d</tspan>  <tspan fill="#ffa657">&lt;time&gt;</tspan> INFO cache hit key=user:<tspan fill="#ffa657">&lt;num&gt;</tspan> ttl=<tspan fill="#ffa657">&lt;dur&gt;</tspan></text>
+    <text x="24" y="186">   22   11.0  <tspan fill="#7ee787">t227f99ea</tspan>  <tspan fill="#ffa657">&lt;time&gt;</tspan> DEBUG db query table=<tspan fill="#f778ba">&lt;*&gt;</tspan> rows=<tspan fill="#ffa657">&lt;num&gt;</tspan> took=<tspan fill="#ffa657">&lt;dur&gt;</tspan></text>
+    <text x="24" y="208">   16    8.0  <tspan fill="#7ee787">t5d5c164d</tspan>  <tspan fill="#ffa657">&lt;time&gt;</tspan> INFO worker <tspan fill="#ffa657">&lt;num&gt;</tspan> finished job <tspan fill="#ffa657">&lt;hex&gt;</tspan> in <tspan fill="#ffa657">&lt;dur&gt;</tspan></text>
+    <text x="24" y="230">   12    6.0  <tspan fill="#7ee787">t07c89968</tspan>  <tspan fill="#ffa657">&lt;time&gt;</tspan> INFO cache miss key=user:<tspan fill="#ffa657">&lt;num&gt;</tspan> fetching from origin</text>
+    <text x="24" y="252">    8    4.0  <tspan fill="#7ee787">tdf275f47</tspan>  <tspan fill="#ffa657">&lt;time&gt;</tspan> INFO session started session=<tspan fill="#ffa657">&lt;uuid&gt;</tspan> user=<tspan fill="#ffa657">&lt;email&gt;</tspan></text>
+    <text x="24" y="274">    4    2.0  <tspan fill="#7ee787">te5858e94</tspan>  <tspan fill="#ffa657">&lt;time&gt;</tspan> WARN retrying request attempt=<tspan fill="#ffa657">&lt;num&gt;</tspan> backoff=<tspan fill="#ffa657">&lt;dur&gt;</tspan></text>
+    <text x="24" y="296">    4    2.0  <tspan fill="#7ee787">tfbcd9445</tspan>  <tspan fill="#ffa657">&lt;time&gt;</tspan> ERROR upstream timeout host=<tspan fill="#ffa657">&lt;ip&gt;</tspan> after=<tspan fill="#ffa657">&lt;dur&gt;</tspan></text>
+    <text x="24" y="318" fill="#8b949e">    …    …    …          (1 more template)</text>
+    <text x="24" y="348"><tspan fill="#7ee787">$</tspan> echo "$LINE" | logloom novel -state baseline.json</text>
+    <text x="24" y="370"><tspan fill="#ff7b72">2026-02-04T09:12:45Z ERROR disk write failed device=sda1 err=EIO</tspan></text>
+    <text x="24" y="392" fill="#8b949e">logloom novel: 1 of 1 line matched no baseline template <tspan fill="#ff7b72">(exit 1)</tspan></text>
+  </g>
+</svg>

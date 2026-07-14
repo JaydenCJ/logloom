@@ -1,0 +1,17 @@
+# build artifacts
+/logloom
+/dist/
+
+# test and coverage output
+*.test
+*.out
+coverage.*
+
+# state files from local experiments
+*.state.json
+
+# editor noise
+.idea/
+.vscode/
+*.swp
+.DS_Store
